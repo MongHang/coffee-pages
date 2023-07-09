@@ -1,0 +1,21 @@
+body {
+    background-image: url(../img/4419157.jpg);
+    background-size: cover;
+}
+
+#main-div {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5; /*行數*/
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}

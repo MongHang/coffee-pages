@@ -1,0 +1,50 @@
+主題選擇:
+咖啡:
+    https://explorethesun.tw/story_detail.php?id=61
+    https://www.buoncaffe.com.tw/blog/posts/coffeedrink
+    https://zh.wikipedia.org/zh-tw/%E5%92%96%E5%95%A1
+    https://tw.jura.com/zh-TW/About-Coffee/coffee-history
+    https://www.baiwagopluscafe.co/pages/coffee-trivia-the-difference-between-arabica-and-robusta
+    https://ucamc.com/387-css-ellipses-single-or-multiple-lines
+
+    開頭(index，內容不要塞太多)
+        作者簡介(咖啡精靈/咖啡頭)
+        歷史介紹
+        成分(?)
+        主要產地
+        製作工序(簡簡簡簡簡介)
+    4元素
+        咖啡樹品種
+        咖啡豆處理法
+        咖啡豆產地
+        咖啡豆烘焙
+    咖啡飲料
+        即溶
+            (?)
+        精品
+            拿鐵/卡布奇諾/冰滴/...
+            咖啡風味輪(?)
+    咖啡豆
+        處理(加工)法
+            日曬/水洗
+        沖煮方式
+        2大品種差異(即溶/精品)製作分類原因
+        烘焙程度
+        保存方法
+    YT頻道/影片分享(簡介)(?)
+    了解更多
+        健康影響(?)
+        公平貿易(?)
+
+
+
+YT iframe會超出手機網頁大小需處理
+
+animated icon:
+https://www.flaticon.com/animated-icons
+https://icons8.com/icons/set/chrome
+
+飲料(X)
+遊戲(多種)
+動畫
+小說
