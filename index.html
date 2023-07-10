@@ -7,13 +7,14 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
 
     <link rel="stylesheet" href="./css/style_2.css">
+    <script src="./js/my_script.js"></script>
 
     <title>Coffee</title>
     
@@ -31,16 +32,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">首頁</a>
+                            <a class="nav-link active" aria-current="page" href="#">首頁</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 咖啡豆
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">處理</a></li>
+                                <li><a class="dropdown-item" href="#">烘焙</a></li>
+                                <li><a class="dropdown-item" href="#">沖煮</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -48,18 +49,16 @@
                                 咖啡飲品
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="#">生產中...</a></li>
+                                <li><a class="dropdown-item" href="#">生產中...</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">其他</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link disabled">Disabled</a>
-                        </li>
+                        </li> -->
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -70,22 +69,24 @@
         </nav>
     </header>
 
-    <div id="main-div" class="container">
+    <div id="div-title" class="container">
 
         <section class="p-5">
             <div class="container">
-                <div class="row">
+                <div class="row justify-content-between">
                     <div class="col-6">
                         <h1 class="display-3"><b>咖啡 世界</b></h1>
                     </div>
-                    <div class="col-6 text-end">
+                    <div class="col-2 text-center">
                         <img src="./img/break cup.jpg" width="100px" height="100px" style="border-radius: 50%; margin-bottom: 10px; border: 2px solid chocolate;">
-                        <h5>網站作者: 破咖啡</h5>
+                        <h5>江孟翰</h5>
                     </div>
                 </div>
             </div>
         </section>
-    
+    </div>
+
+    <div id="div-main" class="container">
         <section class="p-5">
             <div class="container">
                 <div class="row">
@@ -119,7 +120,7 @@
                 </div>
                 <div class="row">
                     <div class="col-4">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: auto;">
                             <img src="./img/Arabica.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">阿拉比卡（Arabica）</h5>
@@ -132,7 +133,7 @@
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: auto;">
                             <img src="./img/Robusta.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">羅布斯塔（Robusta）</h5>
@@ -140,12 +141,12 @@
                                     又稱為中果咖啡​，羅布斯塔品種比起阿拉比卡等級稍低​，傳統上被種植於較低海拔​。
                                     易於種植，對疾病抵抗力較好，且生產率更高​。他們有較苦澀的風味​，咖啡豆又小又圓​，但其咖啡因含量是阿拉比卡的將近兩倍​，常被用來與阿拉比卡互相搭配​，增加 espresso的濃厚口感及咖啡脂(crema)，或賦予即溶咖啡厚實感​。
                                 </p>
-                                <a href="#" class="btn btn-primary">詳細</a>
+                                <a href="#" class="btn btn-primary btn-detailed">詳細</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="card" style="width: 18rem;">
+                        <div class="card" style="width: auto;">
                             <img src="./img/Liberica.webp" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">賴比瑞亞（Liberica）</h5>

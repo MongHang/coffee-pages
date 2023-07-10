@@ -1,9 +1,10 @@
 body {
     background-image: url(../img/4419157.jpg);
     background-size: cover;
+    background-position: right;
 }
 
-#main-div {
+#div-main {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 30px;
     margin: auto;
@@ -18,4 +19,30 @@ body {
     -webkit-line-clamp: 5; /*行數*/
     -webkit-box-orient: vertical;
     white-space: normal;
+}
+
+
+.nav-link:hover {
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    margin-right: 2px;
+    font-size: large;
+}
+
+#div-title {
+    /* background-image: url(../img/espresso-cup-wooden-old-background.jpg);
+    background-size: cover;
+    -webkit-text-stroke: 1px chocolate;
+    color: white;
+    font-weight: 900; */
+
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card {
+    box-shadow: 5px 5px gray;
 }
